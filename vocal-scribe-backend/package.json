@@ -1,0 +1,26 @@
+{
+  "name": "vocal-scribe-backend",
+  "version": "1.0.0",
+  "description": "Secure AI Orchestration Server for Music XML",
+  "main": "server.ts",
+  "scripts": {
+    "start": "ts-node server.ts",
+    "dev": "nodemon --watch *.ts --exec ts-node server.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^2.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "groq-sdk": "^1.2.1",
+    "openai": "^4.52.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.9",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
